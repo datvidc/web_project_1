@@ -9,18 +9,6 @@
   font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
-.reset {
-  margin-block-start: 0;
-  margin-block-end: 0;
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  font-size: 100%;
-  vertical-align: baseline;
-  background: transparent;
-}
-
 .logo {
   height: 31px;
   width: 154px;
@@ -48,25 +36,10 @@
 }
 
 .header__title {
-  /* Reset of default styles */
-  margin-block-start: 0;
-  margin-block-end: 0;
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  font-size: 100%;
-  vertical-align: baseline;
-  background: transparent;
-  /* end of reset */
-  display: flex;
-  align-content: center;
-  justify-content: center;
+  /* these two classes are needed*/
   align-self: center;
   margin-left: 64px;
-}
-
-.header__title_text {
+  /* these two classes are needed*/
   width: 730px;
   font-size: 102px;
   font-weight: bold;
@@ -75,18 +48,6 @@
 }
 
 .header__subtitle {
-  /* Reset of default styles */
-  margin-block-start: 0;
-  margin-block-end: 0;
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  font-size: 100%;
-  vertical-align: baseline;
-  background: transparent;
-  /* end of reset */
-
   position: absolute;
   bottom: 30px;
   left: 64px;
@@ -158,17 +119,6 @@
 }
 
 .two-columns__paragraph {
-  /* Reset of default styles */
-  margin-block-start: 0;
-  margin-block-end: 0;
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  font-size: 100%;
-  vertical-align: baseline;
-  background: transparent;
-  /* end of reset */
   min-width: 784px;
   font-size: 24px;
   line-height: 34px;
@@ -211,17 +161,6 @@
 }
 
 .section-title {
-  /* Reset of default styles */
-  margin-block-start: 0;
-  margin-block-end: 0;
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  font-size: 100%;
-  vertical-align: baseline;
-  background: transparent;
-  /* end of reset */
   line-height: 69px;
   font-size: 60px;
   margin-bottom: 20px;
@@ -253,7 +192,6 @@
 
 .table__cell {
   margin-bottom: 60px;
-
 }
 
 .table__cell_theme_light {
@@ -278,17 +216,6 @@
 }
 
 .table__text {
-  /* Reset of default styles */
-  margin-block-start: 0;
-  margin-block-end: 0;
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  font-size: 100%;
-  vertical-align: baseline;
-  background: transparent;
-  /* end of reset */
   margin-top: 20px;
   margin-bottom: 20px;
   line-height: 1.2;
@@ -310,17 +237,6 @@
 }
 
 .feinman__title {
-  /* Reset of default styles */
-  margin-block-start: 0;
-  margin-block-end: 0;
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  font-size: 100%;
-  vertical-align: baseline;
-  background: transparent;
-  /* end of reset */
   margin-top: 0;
   width: 770px;
   line-height: 1.15;
@@ -331,17 +247,6 @@
 }
 
 .feinman__subtitle {
-  /* Reset of default styles */
-  margin-block-start: 0;
-  margin-block-end: 0;
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  font-size: 100%;
-  vertical-align: baseline;
-  background: transparent;
-  /* end of reset */
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
@@ -371,17 +276,6 @@
 }
 
 .section-title__theme_dark {
-  /* Reset of default styles */
-  margin-block-start: 0;
-  margin-block-end: 0;
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  font-size: 100%;
-  vertical-align: baseline;
-  background: transparent;
-  /* end of reset */
   width: 60%;
   margin: 0 auto;
   line-height: 69px;
@@ -402,8 +296,6 @@
   z-index: 1;
   padding-bottom: 90px;
 }
-
-
 
 .kaufman__triangle {
   background-image: url("../images/triangle.svg");
@@ -437,20 +329,8 @@
 }
 
 .footer__columns_content-copyright {
-  /* Reset of default styles */
-  margin-block-start: 0;
-  margin-block-end: 0;
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  font-size: 100%;
-  vertical-align: baseline;
-  background: transparent;
-  /* end of reset */
   flex-basis: 711px;
   position: relative;
-  /* I dont like using pseudo classes with BEM */
 }
 
 .footer__author {
@@ -485,7 +365,7 @@
   list-style-type: none;
 }
 
-.footer__columns_content-social {
+.footer__column {
   /* Reset of default styles */
   margin-block-start: 0;
   margin-block-end: 0;
@@ -497,10 +377,12 @@
   vertical-align: baseline;
   background: transparent;
   /* end of reset */
+}
+
+.footer__columns_content-social {
   line-height: 45px;
   font-size: 18px;
   font-weight: bold;
-  /* I dont like using pseudo classes with BEM */
 }
 
 .footer__column-links {
