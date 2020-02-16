@@ -446,6 +446,7 @@
   /* end of reset */
   flex-basis: 711px;
   position: relative;
+  /* I dont like using pseudo classes with BEM */
 }
 
 .footer__author {
@@ -480,20 +481,6 @@
   list-style-type: none;
 }
 
-.footer_reset {
-  /* Reset of default styles */
-  margin-block-start: 0;
-  margin-block-end: 0;
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  font-size: 100%;
-  vertical-align: baseline;
-  background: transparent;
-  /* end of reset */
-}
-
 .footer__columns_content-social {
   /* Reset of default styles */
   margin-block-start: 0;
@@ -509,6 +496,7 @@
   line-height: 45px;
   font-size: 18px;
   font-weight: bold;
+  /* I dont like using pseudo classes with BEM */
 }
 
 .footer__column-links {
