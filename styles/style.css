@@ -253,7 +253,11 @@
 
 .table__cell {
   margin-bottom: 60px;
-  width: 200px;
+
+}
+
+.table__cell_theme_light {
+  width: 250px;
 }
 
 .table__heading {
