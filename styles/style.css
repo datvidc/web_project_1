@@ -9,19 +9,9 @@
   font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
-.logo {
-  height: 31px;
-  width: 154px;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
 
-.logo_place_header {
-  background-image: url("../images/logo.png");
-  position: absolute;
-  top: 30px;
-  left: 64px;
-}
+
+
 
 /* Header section  */
 .header {
