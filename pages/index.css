@@ -1,16 +1,13 @@
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/table/table.css);
-  
+@import url(../blocks/description/description.css);
+
 
   
   /* End of header block */
   
-  /* beginning of description block */
-  .description {
-    margin-top: 100px;
-    padding-bottom: 100px;
-  }
+  
   
   .two-columns {
     display: flex;
