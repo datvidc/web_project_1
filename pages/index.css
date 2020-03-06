@@ -1,0 +1,406 @@
+.page {
+    min-width: 1100px;
+    /* we don't know how to make mobile versions of websites yet, */
+    /* so here we've set a minimum page width */
+    max-width: 1600px;
+    /* here we've set a maximum page width */
+    margin: 0 auto;
+    /* this ensures that all content is centered on screens wider than 1600px */
+    font-family: "Helvetica Neue", Arial, sans-serif;
+  }
+  
+  
+  
+  
+  
+  /* Header section  */
+  .header {
+    height: 100vh;
+    min-height: 600px;
+    max-height: 756px;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    /* parameters for the header section */
+  }
+  
+  .header__title {
+    /* these two classes are needed*/
+    align-self: center;
+    margin-left: 64px;
+    /* these two classes are needed*/
+    width: 730px;
+    font-size: 102px;
+    font-weight: bold;
+    line-height: 96px;
+    z-index: 1;
+  }
+  
+  .header__subtitle {
+    position: absolute;
+    bottom: 30px;
+    left: 64px;
+    z-index: 1;
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: normal;
+    width: 388px;
+  }
+  
+  .header__link {
+    text-decoration: none;
+    color: #2f80ed;
+  }
+  
+  /* here we have two examples of selectors in order to remind you how to set styles for elements */
+  .header__main-illustration {
+    height: 608px;
+    width: 765px;
+    background-image: url("../images/on_the_edge.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  
+  .header__square-pic {
+    position: absolute;
+    top: 64px;
+    right: 0;
+    background-color: #2f80ed;
+    height: 568px;
+    width: 568px;
+  }
+  
+  /* including elements with key-value modifiers */
+  .table__cell_theme_dark {
+    width: 200px;
+    color: white;
+    margin-right: 0;
+    z-index: 1;
+    margin-top: 60px;
+  }
+  
+  /* End of header block */
+  
+  /* beginning of description block */
+  .description {
+    margin-top: 100px;
+    padding-bottom: 100px;
+  }
+  
+  .two-columns {
+    display: flex;
+  
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .two-columns__brief {
+    width: 175px;
+    line-height: 1.2;
+    font-size: 18px;
+    font-weight: normal;
+    color: #2f80ed;
+  }
+  
+  .two-columns__paragraph {
+    min-width: 784px;
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: normal;
+  }
+  
+  .two-columns__main-text {
+    width: 80%;
+    min-width: 784px;
+  }
+  
+  .two-columns__span-accent {
+    font-weight: bold;
+  }
+  
+  .two-columns__paragraph_margin-bottom {
+    /* I prefer not to use pseudo classes with BEM */
+    margin-bottom: 30px;
+  }
+  
+  /*  end two columns */
+  
+  .digits {
+    margin-top: 100px;
+  }
+  
+  /* table block CSS - used several places */
+  .table {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-between;
+    width: 1100px;
+  }
+  
+  .table__digits {
+    /* the other place table is used, margins are different */
+    padding-top: 60px;
+    padding-bottom: 100px;
+    margin-top: 60px;
+  }
+  
+  .section-title {
+    line-height: 69px;
+    font-size: 60px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .section-subtitle {
+    /* Reset of default styles */
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    /* end of reset */
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 34px;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .table__cell {
+    margin-bottom: 60px;
+  }
+  
+  .table__cell_theme_light {
+    width: 250px;
+  }
+  
+  .table__heading {
+    /* Reset of default styles */
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    /* end of reset */
+    line-height: 1.15;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .table__text {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 1.2;
+    font-size: 18px;
+    font-weight: normal;
+  }
+  
+  /* feinman block */
+  
+  .feinman {
+    height: 790px;
+    background-color: #f2f2f2;
+    background-image: url("../images/feinman.png");
+    background-repeat: no-repeat;
+    background-size: 867px 637px;
+    background-position: bottom left;
+    position: relative;
+    padding-top: 100px;
+  }
+  
+  .feinman__title {
+    margin-top: 0;
+    width: 770px;
+    line-height: 1.15;
+    font-size: 120px;
+    font-weight: bold;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .feinman__subtitle {
+    line-height: 51px;
+    font-size: 36px;
+    font-weight: normal;
+    text-align: center;
+    margin: 70px 0 0;
+  }
+  
+  .feinman__link {
+    position: absolute;
+    top: 50%;
+    right: 48px;
+    line-height: 51px;
+    text-decoration: none;
+    font-size: 36px;
+    font-weight: normal;
+    color: #000000;
+  }
+  
+  /* end of feinman block:  */
+  
+  .kaufman {
+    background-color: #000000;
+    color: white;
+    padding-top: 90px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .section-title__theme_dark {
+    width: 60%;
+    margin: 0 auto;
+    line-height: 69px;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .section-subtitle__theme_dark {
+    width: 60%;
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: normal;
+    margin-top: 20px;
+  }
+  
+  .table__theme_dark {
+    z-index: 1;
+    padding-bottom: 90px;
+  }
+  
+  .kaufman__triangle {
+    background-image: url("../images/triangle.svg");
+    position: absolute;
+    right: -210px;
+    height: 877px;
+    width: 877px;
+    bottom: 90px;
+    overflow: hidden;
+  }
+  
+  /* end of kaufman section */
+  
+  .footer {
+    padding-top: 60px;
+    padding-bottom: 40px;
+    background-color: #1f1f1f;
+    color: white;
+    min-height: 350px;
+  }
+  
+  .logo_place_footer {
+    background-image: url("../images/logo_white.png");
+  }
+  
+  .footer__columns {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+  }
+  
+  .footer__columns_content-copyright {
+    flex-basis: 711px;
+    position: relative;
+  }
+  
+  .footer__author {
+    /* width: 18px; my lastname is too long for this. */
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 25px;
+    color: #4f4f4f;
+  }
+  
+  .footer__column-heading {
+    /* Reset of default styles */
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    /* end of reset */
+    line-height: 45px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .footer__list-item {
+    list-style-type: none;
+  }
+  
+  .footer__column {
+    /* Reset of default styles */
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    /* end of reset */
+  }
+  
+  .footer__columns_content-social {
+    line-height: 45px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .footer__column-links {
+    /* Reset of default styles */
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    /* end of reset */
+  }
+  
+  .footer__link {
+    display: flex;
+  
+    line-height: 30px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #4f4f4f;
+  }
+  
+  .footer__social-icon {
+    text-decoration: none;
+    color: #4f4f4f;
+  }
+  
