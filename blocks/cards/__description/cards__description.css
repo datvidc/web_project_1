@@ -1,0 +1,13 @@
+
+.cards__description {
+/* killing default styles */
+  margin-block-start: 0;
+  margin-block-end: 0;
+/* mystyles */
+	margin-top: 16px;
+/* harry styles...jk */
+	text-align: center;
+	line-height: 23px;
+  font-size: 18px;
+	
+}
