@@ -1,0 +1,43 @@
+@import url(./__main-illustration/header__main-illustration.css);
+@import url(./__link/header__link.css);
+@import url(./__square-pic/header__square-pic.css);
+
+
+  /* Header section  */
+  .header {
+    height: 100vh;
+    min-height: 600px;
+    max-height: 756px;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    /* parameters for the header section */
+  }
+  
+  .header__title {
+    /* these two classes are needed*/
+    align-self: center;
+    margin-left: 64px;
+    /* these two classes are needed*/
+    width: 730px;
+    font-size: 102px;
+    font-weight: bold;
+    line-height: 96px;
+    z-index: 1;
+  }
+  
+  .header__subtitle {
+    position: absolute;
+    bottom: 30px;
+    left: 64px;
+    z-index: 1;
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: normal;
+    width: 388px;
+  }
+  
+
+  
+
