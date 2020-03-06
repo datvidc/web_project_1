@@ -1,0 +1,7 @@
+
+
+.khan__author {
+    /* utterly laying waste to default styles */
+    margin-block-start: 0;
+    margin-block-end: 0;
+}

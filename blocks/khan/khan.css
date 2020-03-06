@@ -1,0 +1,7 @@
+@import url(./__author/khan__author.css);
+@import url(./__container/khan__container.css);
+
+.khan {
+    background-color: #F2F2F2;
+    padding-top: 105px;
+}
