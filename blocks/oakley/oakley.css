@@ -2,4 +2,5 @@
 .oakley {
     background-color: #f2f2f2;
     padding-top: 100px;
+    padding-bottom: 100px; /* not required by brief but looks better imo */
 }
