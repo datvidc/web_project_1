@@ -2,7 +2,9 @@
 @import url(./__digits/table__digits.css);
 @import url(./__heading/table__heading.css);
 @import url(./__text/table__text.css);
-@import url(./__theme/table__theme_dark.css);
+@import url(./_theme/table_theme_dark.css);
+@import url(./__subtitle/table__subtitle.css);
+@import url(./__title/table__title.css);
 
 
  /* table block CSS - used several places */

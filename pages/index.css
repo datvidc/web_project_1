@@ -14,24 +14,7 @@
     position: relative;
   }
   
-  /* TODO: section-title was renamed to digits...maybe rename all to table.  */
-  .section-title__theme_dark {
-    width: 60%;
-    margin: 0 auto;
-    line-height: 69px;
-    font-size: 60px;
-    font-weight: bold;
-    text-align: center;
-  }
-  
-  .section-subtitle__theme_dark {
-    width: 60%;
-    line-height: 34px;
-    font-size: 24px;
-    font-weight: normal;
-    margin-top: 20px;
-  }
-  
+    
 
   .kaufman__triangle {
     background-image: url("../images/triangle.svg");
