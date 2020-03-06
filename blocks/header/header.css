@@ -2,7 +2,7 @@
 @import url(./__link/header__link.css);
 @import url(./__square-pic/header__square-pic.css);
 @import url(./__subtitle/header__subtitle.css);
-
+@import url(./__title/header__title.css);
 
   /* Header section  */
   .header {
@@ -16,19 +16,6 @@
     /* parameters for the header section */
   }
   
-  .header__title {
-    /* these two classes are needed*/
-    align-self: center;
-    margin-left: 64px;
-    /* these two classes are needed*/
-    width: 730px;
-    font-size: 102px;
-    font-weight: bold;
-    line-height: 96px;
-    z-index: 1;
-  }
   
-
-
   
 

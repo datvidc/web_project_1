@@ -1,0 +1,13 @@
+.header__title {
+    /* these two classes are needed*/
+    align-self: center;
+    margin-left: 64px;
+    /* these two classes are needed*/
+    width: 730px;
+    font-size: 102px;
+    font-weight: bold;
+    line-height: 96px;
+    z-index: 1;
+  }
+  
+
