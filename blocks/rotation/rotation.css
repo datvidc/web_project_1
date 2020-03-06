@@ -1,0 +1,7 @@
+
+
+
+.rotation {
+    transform: rotate(15deg); /* TODO: check if counter clockwise is negative numbers or not */
+    animation: rotation linear 20s infinite;
+}
