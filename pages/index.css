@@ -4,63 +4,10 @@
 @import url(../blocks/description/description.css);
 @import url(../blocks/two-columns/two-columns.css);
 @import url(../blocks/digits/digits.css);
-  
+@import url(../blocks/feinman/feinman.css);
+
    
 
- 
-  
-
-
-  
- 
-  
-
-  
-  
- 
-  /* feinman block */
-  
-  .feinman {
-    height: 790px;
-    background-color: #f2f2f2;
-    background-image: url("../images/feinman.png");
-    background-repeat: no-repeat;
-    background-size: 867px 637px;
-    background-position: bottom left;
-    position: relative;
-    padding-top: 100px;
-  }
-  
-  .feinman__title {
-    margin-top: 0;
-    width: 770px;
-    line-height: 1.15;
-    font-size: 120px;
-    font-weight: bold;
-    margin: 0 auto;
-    text-align: center;
-  }
-  
-  .feinman__subtitle {
-    line-height: 51px;
-    font-size: 36px;
-    font-weight: normal;
-    text-align: center;
-    margin: 70px 0 0;
-  }
-  
-  .feinman__link {
-    position: absolute;
-    top: 50%;
-    right: 48px;
-    line-height: 51px;
-    text-decoration: none;
-    font-size: 36px;
-    font-weight: normal;
-    color: #000000;
-  }
-  
-  /* end of feinman block:  */
   
   .kaufman {
     background-color: #000000;
