@@ -1,0 +1,16 @@
+@import url(./__cell/table__cell.css);
+@import url(./__digits/table__digits.css);
+@import url(./__heading/table__heading.css);
+@import url(./__text/table__text.css);
+@import url(./__theme/table__theme_dark.css);
+
+
+ /* table block CSS - used several places */
+ .table {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-between;
+    width: 1100px;
+  }
+
