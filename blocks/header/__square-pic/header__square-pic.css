@@ -5,4 +5,5 @@
     background-color: #2f80ed;
     height: 568px;
     width: 568px;
+    transform: rotate(-15deg); /* TODO: check if counter clockwise is negative numbers or not */
   }
