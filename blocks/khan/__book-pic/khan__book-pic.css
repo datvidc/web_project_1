@@ -2,7 +2,7 @@
 .khan__book-pic {
     width: 620px;
     height:608px;
-    background-image: url(/../../images/book.png);
+    background-image: url(../../../images/book.png);
     background-size: cover;
     background-position: 0 0;
 }
