@@ -1,10 +1,11 @@
 
 .resources__logo-zone {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: auto;
-    margin-top: 80px;   
-    
-    
+/* reset default styles */
+  padding-left: 0;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  margin-top: 80px; 
 }
