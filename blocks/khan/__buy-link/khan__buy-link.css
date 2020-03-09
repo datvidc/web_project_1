@@ -6,3 +6,11 @@
     text-decoration: none;
     margin-left: 20px;
 }
+
+.khan__buy-link:hover {
+    line-height: 42px;
+    font-size: 30px;
+    font-weight: normal;
+    text-decoration: none;
+    margin-left: 20px;
+}
