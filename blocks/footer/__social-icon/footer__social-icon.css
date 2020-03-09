@@ -1,5 +1,9 @@
-.footer__social-icon {
+
+.footer__social-icon:hover {
     text-decoration: none;
     color: #4f4f4f;
-  }
-  
+}
+.footer__social-icon {
+  text-decoration: none;
+  color: #4f4f4f;
+}
