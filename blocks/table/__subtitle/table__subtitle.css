@@ -1,0 +1,21 @@
+@import url(./_theme/table__subtitle_theme_dark.css);
+
+  .table__subtitle {
+    /* Reset of default styles */
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    /* end of reset */
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 34px;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+  }

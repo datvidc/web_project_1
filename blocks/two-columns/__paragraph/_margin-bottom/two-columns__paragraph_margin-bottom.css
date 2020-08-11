@@ -1,0 +1,5 @@
+  
+  .two-columns__paragraph_margin-bottom {
+    /* I prefer not to use pseudo classes with BEM */
+    margin-bottom: 30px;
+  }

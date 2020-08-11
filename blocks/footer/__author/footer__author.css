@@ -1,0 +1,11 @@
+
+  .footer__author {
+    /* width: 18px; my lastname is too long for this. */
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 25px;
+    color: #4f4f4f;
+  }
